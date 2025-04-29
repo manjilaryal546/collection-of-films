@@ -26,6 +26,7 @@ img{
     height: 100%;
     animation-name: poster;
     animation-duration: 1s;
+    transition: ease;
 }
 #btnbox{
     position: absolute;
@@ -51,6 +52,7 @@ button:hover{
     padding: 5%;
     animation-name: poster;
     animation-duration: 1s;
+    transition: ease;
 }
 #title{
     font-size: 5vw;
