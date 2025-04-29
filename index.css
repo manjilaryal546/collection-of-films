@@ -24,7 +24,7 @@ body{
 #menubox{
     height: 100vh;
     position: fixed;
-    width: 40vw;
+    width: 26vw;
     box-shadow: #003366 5px 0 50px;
     background-color: #003366;
     padding: 2vw;
@@ -222,6 +222,7 @@ img:hover{
     }
     #menubox{
         display: none;
+        width: 40vw;
     } 
     #close{
         display: block;
