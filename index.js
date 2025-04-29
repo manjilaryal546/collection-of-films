@@ -37,7 +37,7 @@ function findK(){
    let Ksearch = document.getElementById("ksearch").value;
    switch(Ksearch){
       case "Gharjwai":
-         window.location.href ="detail.html";
+         window.location.href ="gharjwai.html";
       break;
       default:
          break;
