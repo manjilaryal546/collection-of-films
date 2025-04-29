@@ -223,7 +223,7 @@ img:hover{
     }   
 }
 @media(max-width:425px){
-    .diff,#mailbtn,.searchbox,.searchbtn{
+    .diff,#mailbtn,{
         font-size: x-small;
     }
     #upload{
@@ -236,7 +236,10 @@ img:hover{
         color: #ffd662ff;
         margin-top: 25%;
         justify-content: space-between;
-    }       
+    }  
+    .searchbox,.searchbtn{
+        font-size: large;
+    }
     #symbol{
         font-size: x-small;
     }
