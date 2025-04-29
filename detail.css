@@ -65,6 +65,23 @@ button:hover{
 details{
     cursor: pointer;
 }
+@keyframes poster{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%
+    }
+    100%{
+        opacity: 100%
+    }
+}
 @media(max-width:2560px){
     button{
         font-size: xx-large;
