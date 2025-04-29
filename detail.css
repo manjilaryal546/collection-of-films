@@ -2,208 +2,94 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Ubuntu", sans-serif;
-    background-color: #ffd662ff;
-    color: #003366;
 }
 #content{
-    display: grid;
-    grid-template-columns: 27.5vw 47.5vw;
-    gap: 5vw;
-    margin: 5vh 10vw 5vh;
-    background-color: #003366;
-    color: #ffd662ff;
-    border-radius: 50px;
-}
-#poster{
-    position: relative;
-    box-shadow: 0 0 40px;
-    height:90vh
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
-
 }
-img{
+#contentbox{
+    width: 425px;
+    text-align: center;
+    padding: 2%;
+}
+#poster,.parts{
     width: 100%;
     height: 100%;
-    animation-name: poster;
-    animation-duration: 1s;
-    transition: ease;
+    border-radius: 5px;
 }
-#btnbox{
-    position: absolute;
-    bottom: 9%;
-    right: 33%;
+#parts{
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    gap: 2%;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 button{
-    color: #003366;
-    background-color: #ffd662ff;
-    font-size: large;
-    border: 1px solid #ffd662ff;
-    border-radius: 50px;
-    padding: 5%;
-    width: 10vw;
+    width: 100%;
+    padding: 2%;
+    margin: 1% 0 5%;
+    border: 1px solid #f77878;
+    background-color: #f77878;
+    color: white;
+    border-radius: 5px;
     cursor: pointer;
     font-family: "Ubuntu", sans-serif;
 }
 button:hover{
     opacity: 90%;
-
-}
-#details{
-    padding: 5%;
-    animation-name: poster;
-    animation-duration: 1s;
-    transition: ease;
-}
-#title{
-    font-size: 5vw;
-    font-family: "Ubuntu", sans-serif;
-}
-#plot{
-    text-align: justify;
-}
-.title{
-    font-weight: bold;
-}
-details{
-    cursor: pointer;
-}
-@keyframes poster{
-    0%{
-        opacity: 0%;
-    }
-    25%{
-        opacity: 25%;
-    }
-    50%{
-        opacity: 50%;
-    }
-    75%{
-        opacity: 75%
-    }
-    100%{
-        opacity: 100%
-    }
+    transition: ease-in-out;
 }
 @media(max-width:2560px){
-    button{
+    #contentbox{
+        width: 900px;
+    }
+    button,p{
         font-size: xx-large;
     }
-    details{
-        font-size: xx-large;
-    }
-    #genre{
-        font-size: xx-large;
-    }
-    #content{
-        grid-template-columns: 35vw 45vw;
-        gap:0;
-    }    
 }
 @media(max-width:1440px){
-    button{
+    #contentbox{
+        width: 600px;
+    }
+    button,p{
         font-size: x-large;
     }
-    details{
-        font-size: x-large;
-    }
-    #genre{
-        font-size: x-large;
-    }
-    #content{
-        grid-template-columns: 35vw 45vw;
-        gap:0;
-    }    
 }
 @media(max-width:1024px){
-    button{
+    #contentbox{
+        width: 400px;
+    }
+    button,p{
         font-size: large;
     }
-    details{
-        font-size: large;
-    }
-    #genre{
-        font-size: large;
-    }
-    #content{
-        grid-template-columns: 35vw 45vw;
-        gap:0;
-    }    
 }
 @media(max-width:768px){
-    button{
+    #contentbox{
+        width: 300px;
+    }
+    button,p{
         font-size: small;
-    }
-    details{
-        font-size: small;
-    }
-    #genre{
-        font-size: small;
-    }
-    #content{
-        grid-template-columns: 35vw 45vw;
-        gap:0;
-    }    
-}
-@media(max-width:425px){
-    button{
-        font-size: large;
-        border-radius: 2px;
-        width: auto;
-    }
-    #btnbox{
-        right: 37%;
-    }
-    details{
-        font-size: small;
-    }
-    #genre{
-        font-size: small;
-    }
-    #content{
-        grid-template-columns: 100vw;
-        margin: 0;
-        background-color: #003366;
-        color: #ffd662ff;
-        border-radius: 0px;    
-    } 
-    #poster{
-        width: 90vw;
-        height: 60vh;
-        margin: 2vh 5vw 2vh;
-    }
-    #title{
-        font-size: x-large;
     }
 }
 @media(max-width:375px){
-    button{
-        font-size: large;
-        border-radius: 2px;
-        width: auto;
+    #contentbox{
+        width: 375px;
     }
-    #btnbox{
-        right: 37%;
-    }
-    details{
-        font-size: x-small;
-    }
-    #genre{
-        font-size: x-small;
-    }
-    #content{
-        grid-template-columns: 100vw;
-        margin: 0;
-        background-color: #003366;
-        color: #ffd662ff;
-        border-radius: 0px;    
-    } 
-    #poster{
-        width: 90vw;
-        height: 100vh;
-        margin: 2vh 5vw 2vh;
+    button,p{
+        font-size: small;
     }
 }
-
-
+@media(max-width:320px){
+    #contentbox{
+        width: 320px;
+    }
+    button,p{
+        font-size: small;
+    }
+}
 
 
