@@ -3,22 +3,34 @@ let bollywoodFilms = document.getElementById("bollywoodbox");
 let hollywoodFilms = document.getElementById("hollywoodbox");
 let menuBtn = document.getElementById("menubtn");
 let menuBox = document.getElementById("menubox");
-let closeBtn = document.getElementById("closebtn")
+let closeBtn = document.getElementById("closebtn");
+let Kbtn = document.getElementById("kollywood");
+let Bbtn = document.getElementById("bollywood");
+let Hbtn = document.getElementById("hollywood");
 
 function openKollywood (){
    kollywoodFilms.style.display="block";
    bollywoodFilms.style.display="none";
    hollywoodFilms.style.display="none";
+   Kbtn.disabled = true ;
+   Bbtn.disabled = false;
+   Hbtn.disabled = false;
 }
 function openBollywood (){
     bollywoodFilms.style.display="block";
     kollywoodFilms.style.display="none";
     hollywoodFilms.style.display="none";
+    Bbtn.disabled = true;
+    Kbtn.disabled = false;
+    Hbtn.disabled = false;
  }
  function openHollywood (){
     hollywoodFilms.style.display="block";
     bollywoodFilms.style.display="none";
     kollywoodFilms.style.display="none";
+    Hbtn.disabled = true;
+    Kbtn.disabled = false;
+    Bbtn.disabled = false;
  }
  function menubtn (){
     menuBox.style.display="block";
