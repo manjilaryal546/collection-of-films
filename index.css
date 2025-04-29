@@ -28,6 +28,8 @@ body{
     box-shadow: #003366 5px 0 50px;
     background-color: #003366;
     padding: 2vw;
+    animation-name: poster;
+    animation-duration: 1s;
 }
 #category{
     margin-bottom: 20%;
@@ -129,7 +131,7 @@ img{
     border-radius: 5px;
     cursor: pointer;
     animation-name: poster;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 img:hover{
     box-shadow: 0 0 20px;
