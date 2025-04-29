@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffd662ff;
+    font-family: "Ubuntu", sans-serif;
+}
+#menubtn{
+    width: 10vw;
+    height: 7vh;
+    background-color: #003366;
+    color: #ffd662ff;
+    text-align: center;
+    border: 1px solid #ffd662ff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    display: none;
+}
+#menubtn{
+    opacity: 90%;
+}
+#menubox{
+    height: 100vh;
+    position: fixed;
+    width: 26vw;
+    box-shadow: #003366 5px 0 50px;
+    background-color: #003366;
+    padding: 2vw;
+}
+#category{
+    margin-bottom: 20%;
+}
+.diff{
+    width: 100%;
+    padding: 5%;
+    background: none;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    color: #ffd662ff;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 5%;
+}
+.diff:hover{
+    background-color: #ffd662ff;
+    color: #003366;
+    border: 1px solid #ffd662ff;
+    border-radius: 10px;
+}
+#upload{
+    padding: 5%;
+    background-color: #ffd662ff;
+    color: #003366;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#mailbtn{
+    background-color: #003366;
+    color: #ffd662ff;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    padding: 5%;
+    font-size: large;
+    cursor: pointer;
+}
+#mailbtn:hover{
+    opacity: 90%;
+}
+#copyright{
+    display: grid;
+    grid-template-columns: 8% 1fr;
+    align-items: center;
+    color: #ffd662ff;
+    margin-top: 15%;
+}
+#symbol{
+    font-size: x-large;
+}
+#symtxt{
+    font-size: large;
+}
+.films{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2vw;
+    padding: 2vw;
+    width: 64.90vw;
+    margin-left: 30vw;
+}
+#search{
+    width: 64.90vw;
+    margin-left: 30vw;
+    padding: 2vw;
+    display: grid;
+    grid-template-columns: 80% 15%;
+    gap: 5%;
+    align-items: center;
+}
+
+.searchbox,.searchbtn{
+    height: 100%;
+    padding: 2%;
+    font-family: "Ubuntu", sans-serif;
+    outline: none;
+    background-color: #003366;
+    color: #ffd662ff;
+    border: 1px solid #003366;
+    border-radius: 2px;
+}
+.searchbox::placeholder{
+    color: #ffd662ff;
+}
+.searchbtn{
+    cursor: pointer;
+}
+.searchbtn:hover{
+    opacity: 90%;
+}
+datalist{
+    font-family: "Ubuntu", sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+img:hover{
+    box-shadow: 0 0 20px;
+}
+#close{
+    text-align: right;
+    display: none;
+}
+#closebtn{
+    background-color: #ffd662ff;
+    color: #003366;
+    border: 1px solid #ffd662ff;
+    border-radius: 1px;
+    cursor: pointer;
+}
+#bollywoodbox,#hollywoodbox{
+    display: none;
+}
+@media(max-width:2560px){
+    .diff,.searchbox,.searchbtn{
+        font-size: xx-large;
+    }
+    #upload{
+        font-size: xx-large;
+    }  
+    #mailbtn{
+        font-size: xx-large;
+    }  
+}
+@media(max-width:1440px){
+    .diff,.searchbox,.searchbtn{
+        font-size: x-large;
+    }
+    #upload{
+        font-size: x-large;
+    } 
+    #mailbtn{
+        font-size: x-large;
+    }   
+}
+@media(max-width:1024px){
+    .diff,#mailbtn{
+        font-size: large;
+    }
+    #upload,.searchbox,.searchbtn{
+        font-size: large;
+    }    
+    #symbol{
+        font-size: large;
+    }
+    #symtxt{
+        font-size: small;
+    }    
+}
+@media(max-width:768px){
+    .diff,#mailbtn,.searchbox,.searchbtn{
+        font-size: small;
+    }
+    #upload{
+        font-size: small;
+    }    
+    #symbol{
+        font-size: small;
+    }
+    #symtxt{
+        font-size: smaller;
+    }   
+}
+@media(max-width:425px){
+    .diff,#mailbtn,.searchbox,.searchbtn{
+        font-size: x-small;
+    }
+    #upload{
+        font-size: x-small;
+    } 
+    #copyright{
+        display: grid;
+        grid-template-columns: 8% 1fr;
+        align-items: center;
+        color: #ffd662ff;
+        margin-top: 25%;
+        justify-content: space-between;
+    }       
+    #symbol{
+        font-size: x-small;
+    }
+    #symtxt{
+        font-size: xx-small;
+    }   
+    #menubtn{
+        display: block;
+    }
+    #menubox{
+        display: none;
+    } 
+    #close{
+        display: block;
+        margin: 1% 0 15%;
+    }
+    .films{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5vw;
+        padding: 5vw;
+        padding-top: 15vw;
+        width: 90vw;
+        margin-left: 0vw;
+    }  
+    .diff:hover,#kollywood{
+        border-radius: 5px;
+    } 
+}
+@media(max-width:375px){
+    .diff,#mailbtn,.searchbox,.searchbtn{
+        font-size: xx-small;
+    }
+    #upload{
+        font-size: xx-small;
+    }    
+    #symbol{
+        font-size: xx-small;
+    }
+    #symtxt{
+        font-size: xx-small;
+    }  
+    .diff:hover,#kollywood{
+        border-radius: 1px;
+    }  
+}
+@media(max-width:320px){
+    .diff,#mailbtn,.searchbox,.searchbtn{
+        font-size: 8px;
+    }
+    #upload{
+        font-size: 8px;
+    }    
+    #symbol{
+        font-size: 7px;
+    }
+    #symtxt{
+        font-size: 4px;
+    }  
+    #menubtn{
+        height: 5vh;
+    } 
+}
