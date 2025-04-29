@@ -57,7 +57,7 @@ function findH(){
    let Hsearch = document.getElementById("hsearch").value;
    switch(Hsearch){
       case "Gharjwai":
-         window.location.href ="detail.html";
+         window.location.href ="gharjwai.html";
       break;
       default:
          break;
