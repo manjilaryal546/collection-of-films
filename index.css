@@ -128,9 +128,28 @@ img{
     height: 100%;
     border-radius: 5px;
     cursor: pointer;
+    animation-name: poster;
+    animation-duration: 1s;
 }
 img:hover{
     box-shadow: 0 0 20px;
+}
+@keyframes poster{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%
+    }
+    100%{
+        opacity: 100%
+    }
 }
 #close{
     text-align: right;
