@@ -16,7 +16,6 @@ body{
     width: 425px;
     text-align: center;
     padding: 2%;
-    margin-top: 25%;
 }
 #title{
     font-size: 10dvw;
@@ -73,6 +72,7 @@ button:hover{
 @media(max-width:375px){
     #contentbox{
         width: 375px;
+        margin-top: 25%;
     }
     
 }
