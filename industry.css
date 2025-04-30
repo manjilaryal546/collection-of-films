@@ -15,7 +15,7 @@ body{
     width: 96%;
     padding: 2%;
     display: grid;
-    grid-template-columns: 65% 15% 15%;
+    grid-template-columns: 80% 15%;
     gap: 5%;
     align-items: center;
 }
