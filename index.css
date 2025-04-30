@@ -67,12 +67,12 @@ button:hover{
 @media(max-width:768px){
     #contentbox{
         width: 300px;
+        margin-top: 25%;
     }
 }
 @media(max-width:375px){
     #contentbox{
         width: 375px;
-        margin-top: 25%;
     }
 }
 @media(max-width:320px){
