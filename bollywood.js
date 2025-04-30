@@ -11,7 +11,7 @@ function findB(){
          window.location.href ="kaithi.html";
       break;
           case "KGF : Chapter 1":
-         window.location.href ="khf1.html";
+         window.location.href ="kgf1.html";
       break;
           case "KGF : Chapter 2":
          window.location.href ="kgf2.html";
