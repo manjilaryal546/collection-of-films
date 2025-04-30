@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffd662ff;
+    font-family: "Ubuntu", sans-serif;
+}
+.films{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+    padding: 2%;
+    width: 96%;
+}
+#search{
+    width: 96%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 80% 15%;
+    gap: 5%;
+    align-items: center;
+}
+.searchbox,.searchbtn{
+    height: 100%;
+    padding: 2%;
+    font-family: "Ubuntu", sans-serif;
+    outline: none;
+    background-color: #003366;
+    color: #ffd662ff;
+    border: 1px solid #003366;
+    border-radius: 2px;
+    animation-name: poster;
+    animation-duration: 1s;
+    transition: ease;
+}
+.searchbox::placeholder{
+    color: #ffd662ff;
+}
+.searchbtn{
+    cursor: pointer;
+}
+.searchbtn:hover{
+    opacity: 90%;
+}
+datalist{
+    font-family: "Ubuntu", sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    animation-name: poster;
+    animation-duration: 2s;
+    transition: ease;
+}
+img:hover{
+    box-shadow: 0 0 20px;
+}
+@keyframes poster{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%
+    }
+    100%{
+        opacity: 100%
+    }
+}
+#bollywoodbox{
+    display: none;
+}
+@media(max-width:2560px){
+    .searchbox,.searchbtn{
+        font-size: xx-large;
+    }  
+}
+@media(max-width:1440px){
+    .searchbox,.searchbtn{
+        font-size: x-large;
+    }  
+}
+@media(max-width:1024px){
+    .searchbox,.searchbtn{
+        font-size: large;
+    }    
+}
+@media(max-width:768px){
+    .searchbox,.searchbtn{
+        font-size: small;
+    }   
+}
+@media(max-width:425px){
+    .searchbox,.searchbtn{
+        font-size: large;
+    }
+    .films{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5%;
+        padding: 5%;
+        padding-top: 15%;
+        width: 90%;
+    }  
+    #kollywood{
+        border-radius: 5px;
+    } 
+}
+@media(max-width:375px){
+   .searchbox,.searchbtn{
+        font-size: xx-small;
+    } 
+    #kollywood{
+        border-radius: 1px;
+    }  
+}
+@media(max-width:320px){
+    .searchbox,.searchbtn{
+        font-size: 8px;
+     
+}
+}
