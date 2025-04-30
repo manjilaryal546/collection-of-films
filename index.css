@@ -22,7 +22,7 @@ body{
     font-weight: bold;
    }
 h3{
-    font-size: 2dvw;
+    font-size: 5dvw;
 }
 #abt{
     font-size: 2dvw;
@@ -55,13 +55,14 @@ button:hover{
     color: #ffd662ff;
     border: 1px solid #003366;
     border-radius: 5px;
-    padding: 2%
+    padding: 2%;
 }
 .mailbtn{
     background-color: #ffd662ff;
     color: #003366;
     border: 1px solid #ffd662ff;
     border-radius: 3px;
+    font-size: large;
 }
 @media(max-width:2560px){
     #contentbox{
