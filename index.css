@@ -21,6 +21,9 @@ body{
     font-size: 10dvw;
     font-weight: bold;
    }
+h3{
+    font-size: 7dvw;
+}
 #abt{
     font-size: 2dvw;
 }
@@ -46,6 +49,19 @@ button{
 }
 button:hover{
     opacity: 90%;
+}
+#mail{
+    background-color: #003366;
+    color: #ffd662ff;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    padding: 1%
+}
+.searchbtn{
+    background-color: #ffd662ff;
+    color: #003366;
+    border: 1px solid #ffd662ff;
+    border-radius: 3px;
 }
 @media(max-width:2560px){
     #contentbox{
