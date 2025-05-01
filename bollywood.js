@@ -37,6 +37,24 @@ function findB(){
           case "Vikram":
          window.location.href ="vikram.html";
       break;
+          case "Chhorii":
+         window.location.href ="chhorii.html";
+      break;
+         case "Chhorii 2":
+         window.location.href ="chhorii2.html";
+      break;
+         case "Good Bad Ugly":
+         window.location.href ="goodbadugly.html";
+      break;
+         case "JAAT":
+         window.location.href ="jaat.html";
+      break;
+         case "Jewel Thief: The Heist Begins":
+         window.location.href ="jewelthief.html";
+      break;
+         case "Veera Dheera Sooran: Part 2":
+         window.location.href ="veeradheerasooran.html";
+      break;
       default:
          break;
    }
