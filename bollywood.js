@@ -53,7 +53,7 @@ function findB(){
          window.location.href ="jewelthief.html";
       break;
          case "Veera Dheera Sooran: Part 2":
-         window.location.href ="veeradheerasooran.html";
+         window.location.href ="veeradheerasooran2.html";
       break;
       default:
          break;
