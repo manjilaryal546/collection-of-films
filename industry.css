@@ -101,7 +101,7 @@ img:hover{
         font-size: large;
     }
     .films{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 5%;
         padding: 5%;
         padding-top: 15%;
