@@ -55,6 +55,24 @@ function findB(){
          case "Veera Dheera Sooran: Part 2":
          window.location.href ="veeradheerasooran2.html";
       break;
+         case "HIT":
+         window.location.href ="hit.html";
+      break;
+         case "HIT: The 2nd Case":
+         window.location.href ="hit2.html";
+      break;
+         case "HIT: The 3rd Case":
+         window.location.href ="hit3.html";
+      break;
+          case "The Bhootni":
+         window.location.href ="bhootni.html";
+      break;
+          case "Raid":
+         window.location.href ="raid.html";
+      break;
+          case "Raid 2":
+         window.location.href ="raid.html";
+      break;
       default:
          break;
    }
